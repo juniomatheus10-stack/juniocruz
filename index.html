@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <style>
+        /* --- ESTILOS GERAIS --- */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f4f4f9; }
+        header { background: #2c3e50; color: #fff; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: center; gap: 20px; }
+        nav a { color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #3498db; }
+        
+        .capa-container { width: 100%; height: 350px; overflow: hidden; margin-top: 50px; }
+        .capa-site { width: 100%; height: 100%; object-fit: cover; }
+        .foto-perfil { width: 180px; height: 180px; border-radius: 50%; display: block; margin: -90px auto 20px; border: 6px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.15); object-fit: cover; position: relative; z-index: 10; background-color: #fff; }
+        
+        .container { max-width: 1000px; margin: 0 auto 40px; padding: 20px; }
+        section { background: #fff; margin-bottom: 40px; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1, h2, h3 { color: #2c3e50; text-align: center; }
+        h2 { border-bottom: 2px solid #3498db; display: block; padding-bottom: 5px; margin-bottom: 30px; width: fit-content; margin-left: auto; margin-right: auto; }
+        
+        .apresentacao { font-size: 1.1rem; line-height: 1.8; color: #444; background: #f9f9f9; padding: 25px; border-left: 5px solid #3498db; margin-bottom: 40px; border-radius: 0 8px 8px 0; }
+        
+        .grid-pesquisas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card-pesquisa { background: #ecf0f1; padding: 20px; border-radius: 8px; border-top: 4px solid #3498db; transition: transform 0.3s ease; }
+        .card-pesquisa:hover { transform: translateY(-5px); }
+        .card-pesquisa h3 { margin-top: 0; font-size: 1.1rem; color: #2980b9; text-align: left; }
+        .tag { display: inline-block; background: #2c3e50; color: #fff; padding: 2px 10px; border-radius: 4px; font-size: 0.75rem; margin-bottom: 10px; text-transform: uppercase; }
+        
+        footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#biografia">Biografia</a>
+            <a href="#ensino">Ensino</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#publicacoes">Publicações</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="capa-container">
+        <img src="capa_do_site.jpg" alt="Capa do Site" class="capa-site">
+    </div>
+
+    <div class="container">
+        
+        <section id="biografia">
+            <img src="foto_de_perfil.jpg" alt="Minha Foto" class="foto-perfil">
+            <h1>Biografia</h1>
+            <div class="apresentacao">
+                Doutorando em Economia do Futebol (curso de Doutorado Interdisciplinar em Estudos do Lazer) na UFMG. Mestre em Descentralização Econômica (curso de Mestrado Interdisciplinar em Desenvolvimento Social) na Unimontes. Bacharel em Administração (2022), Ciências Econômicas (2022) e Tecnologia em Gestão Pública (2018). Linha de pesquisa: Relações Econômicas. Área de concentração: Cultura e Desenvolvimento Social. Especialista em Planejamento Estratégico. Realizei um MBA em Economia Financeira interrompido para dedicação ao Mestrado. Pesquisador dos seguintes Grupos de Pesquisa: Grupo de Estudos sobre Futebol e Torcidas (Gefut) da UFMG; Rede Iberoamericana de estudos sobre futebol da UFF; Observatório do Futebol e do Torcer, Núcleo Citadino, Pensamento Contemporâneo e LUDENS (Laboratório de Estudos, Pesquisa e Extensão do Lazer), todos da Unimontes. Professor Substituto no IFMG - Campus Betim. Coordenador de Capacitação e Orientação ao Crédito no Banco Comunitário Sevilha. Experiência na área de Microeconomia e Empreendedorismo. Trabalho com Estudos Interdisciplinares da Economia em Estudos do Futebol e em Economia Popular. Concentro as pesquisas em Economia dos Estádios, Economia Popular e Economia do Lazer. 
+            </div>
+
+            <h2>Trajetória de Pesquisa</h2>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa">
+                    <span class="tag">Administração</span>
+                    <h3>Banco Comunitário Sevilha</h3>
+                    <p>Pesquisa sobre as estratégias de criação de um Banco Comunitário. Resultados apontaram que a democracia e a economia popular foram os pilares. <strong>Livro publicado:</strong> "Como criar um Banco Comunitário".</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Ciências Econômicas</span>
+                    <h3>Microfinanças e Inclusão</h3>
+                    <p>Desenho de política pública para população de baixa renda, articulando recursos governamentais com agentes de crédito atuando em redes de assistência e educação.</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Gestão Pública</span>
+                    <h3>Produtos de Administração Pública</h3>
+                    <p>Foco em Modelos de Gestão, Administração Geral no setor público, Análise Política e Econômica e Desenvolvimento Socioeconômico.</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Mestrado</span>
+                    <h3>Microeconomia Comunitária</h3>
+                    <p>Estudo sobre organizações sociais baseadas em Economia Solidária e na Tripla Hélice, identificando a autogestão como dinâmica central.</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Doutorado (UFMG)</span>
+                    <h3>Economia do Lazer e Estádios</h3>
+                    <p>Investigação da economia do lazer no entorno de estádios de Belo Horizonte, mapeando como essas práticas se estruturam como mercado.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ensino">
+            <h2>Ensino</h2>
+            <div class="apresentacao">
+                Atuação como docente e instrutor em cursos de formação acadêmica e profissional, com experiência em ensino superior, técnico e capacitação extensionista. Ministrou cursos voltados ao empreendedorismo e gestão, como O Empreendedor e o Plano de Negócios e Gestão de Pequenos Negócios, com foco na formação prática de empreendedores e elaboração de planos de negócios. No âmbito da extensão universitária, conduziu o curso Como Criar um Banco Comunitário, abordando estratégias de economia solidária e desenvolvimento local. No ensino superior, ministrou disciplinas nas áreas de Ciências Sociais Aplicadas e Saúde, incluindo Teorias do Lazer (Educação Física – bacharelado e licenciatura), Infraestrutura e Bem-Estar (Tecnólogo em Gestão Pública), e Processos Sociais (Terapia Ocupacional – UFMG). Também atuou no ensino técnico e tecnológico, com disciplinas como Gestão, Empreendedorismo e Inovação (cursos técnicos em Química, Mecânica e Automação) e Direito e Legislação (Engenharia Mecânica e Engenharia de Controle e Automação) do IFMG – Campus Betim. Atualmente, ministra a disciplina de Empreendedorismo e Inovação no curso Técnico em Informática do IFMG – Campus Ribeirão das Neves. Possui experiência na articulação entre teoria e prática, com foco em metodologias aplicadas ao ensino, formação empreendedora e desenvolvimento socioeconômico.
+            </div>
+
+            <h3>Disciplinas Ministradas</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Ciências Humanas</h3><p>Projeto de tempo integral - Ribeirão das Neves</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Temas Emergentes</h3><p>Tecnólogo em Processos Gerenciais - IFMG</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Formação Ética e Política</h3><p>Bacharelado em Administração - IFMG</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Sociologia do Trabalho</h3><p>Bacharelado em Administração - IFMG</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Teorias do Lazer</h3><p>Ed. Física (Bacharelado/Licenciatura) - Unimontes</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Infraestrutura e Bem-Estar</h3><p>Gestão Pública - Unimontes</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Processos de Inclusão Social</h3><p>Terapia Ocupacional - UFMG</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Gestão, Empreend. e Inovação</h3><p>Técnicos (Química, Mecânica, Automação) - IFMG Betim</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Direito e Legislação</h3><p>Engenharias (Mecânica/Automação) - IFMG Betim</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Empreendedorismo e Inovação</h3><p>Técnico em Informática - IFMG Ribeirão das Neves</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>O empreendedor e o plano de negócios</h3><p>Neves Consultoria</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Gestão (Materiais/Financeira)</h3><p>Neves Consultoria</p></div>
+                <div class="card-pesquisa"><span class="tag">Ensino</span><h3>Como criar um Banco Comunitário</h3><p>Unimontes</p></div>
+            </div>
+
+            <h3 style="margin-top: 40px;">Laboratórios e Grupos de Pesquisa</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>GeFuT (UFMG)</h3><p>Estudos sobre futebol e torcidas.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>Observatório Social (Leme/UERJ)</h3><p>Pesquisa sobre o custo do torcer.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>Ludens (Unimontes)</h3><p>Laboratório de Estudos do Lazer.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>Núcleo Citadino (Unimontes)</h3><p>Estudos urbanos.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>Pensamento Contemporâneo</h3><p>Pesquisa em descentralização econômica.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#27ae60;"><span class="tag">Ativo</span><h3>Museu Regional do Norte de Minas</h3><p>Estudos de memória regional.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#f39c12;"><span class="tag">Histórico</span><h3>Neves Consultoria</h3><p>Empresa de consultoria e APL local.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#f39c12;"><span class="tag">Histórico</span><h3>EBTT Startup</h3><p>Fomento ao empreendedorismo.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#f39c12;"><span class="tag">Histórico</span><h3>Projeto Paulo Freire</h3><p>Cursos de gestão comunitária.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#f39c12;"><span class="tag">Histórico</span><h3>IfNeves Consultoria</h3><p>Empresa Júnior - IFMG.</p></div>
+                <div class="card-pesquisa" style="border-top-color:#f39c12;"><span class="tag">Histórico</span><h3>Agência Bússola</h3><p>Fomento a microempreendedores.</p></div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="apresentacao">
+                Atuação em projetos de pesquisa e extensão nas áreas de economia aplicada, desenvolvimento local e estudos do lazer, com experiência desde a graduação até o doutorado. No âmbito da pesquisa, participou de estudos sobre inflação e orçamento familiar em Ribeirão das Neves, além de investigações em economia ambiental e ecológica. No mestrado, integrou pesquisas voltadas ao diagnóstico do torcedor e ao direito à cidade em Montes Claros, com foco nas dinâmicas urbanas e culturais. Atualmente, no doutorado, desenvolve pesquisa sobre a percepção do torcedor do Clube Atlético Mineiro na Arena MRV, analisando aspectos socioeconômicos e culturais do futebol. Em extensão universitária, atuou em iniciativas de impacto social, com destaque para a incubação de tecnologias sociais que resultou na criação do Empório das Artes em Ribeirão das Neves. Participou de projetos vinculados à Neves Consultoria e à Agência Bússola, além de atuar no Banco Comunitário Sevilha, contribuindo para o fortalecimento da economia local. No mestrado, integrou projetos como o CineFoot e ações voltadas à antropologia urbana e desenvolvimento urbano em Montes Claros. Atualmente, no doutorado, participa do programa de divulgação científica “Óbvio Ululante”, voltado à popularização do conhecimento sobre futebol na rádio universitária. Possui experiência na articulação entre pesquisa e extensão, com foco em produção de conhecimento aplicado, desenvolvimento territorial e impacto social.
+            </div>
+
+            <h3>Pesquisa</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa"><span class="tag">UFMG</span><h3>Microeconomia do Futebol</h3><p>O mercado futebolístico visto por baixo (Tese de Doutorado).</p></div>
+                <div class="card-pesquisa"><span class="tag">Unimontes</span><h3>História Social</h3><p>Campeonato de Futebol Amador do Bairro Santos Reis.</p></div>
+                <div class="card-pesquisa"><span class="tag">UFMG</span><h3>Torcedor do Atlético Mineiro</h3><p>Expectativas e usos da Arena MRV.</p></div>
+                <div class="card-pesquisa"><span class="tag">Dissertação</span><h3>Microeconomia Comunitária</h3><p>Empreendimento de Economia Solidária em Ribeirão das Neves/MG.</p></div>
+                <div class="card-pesquisa"><span class="tag">Unimontes</span><h3>Torcidas de Futebol</h3><p>Estudo diagnóstico em Montes Claros/MG.</p></div>
+                <div class="card-pesquisa"><span class="tag">Graduação</span><h3>Banco Comunitário Sevilha</h3><p>Estratégias para criação de banco comunitário (IFMG).</p></div>
+                <div class="card-pesquisa"><span class="tag">Pesquisa</span><h3>Economia Ecológica</h3><p>Economias sem exploração predatória de recursos (IFMG).</p></div>
+                <div class="card-pesquisa"><span class="tag">Pesquisa</span><h3>Orçamentos Familiares</h3><p>Índice de Inflação de Ribeirão das Neves (IFMG).</p></div>
+            </div>
+
+            <h3 style="margin-top: 40px;">Extensão</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa"><span class="tag">Ativo</span><h3>Programa Óbvio Ululante</h3><p>GeFut e Rádio UFMG.</p></div>
+                <div class="card-pesquisa"><span class="tag">Extensão</span><h3>CINEFOOT</h3><p>Observatório do Futebol e do Torcer (Unimontes).</p></div>
+                <div class="card-pesquisa"><span class="tag">Extensão</span><h3>Podcast Prosa Futebol Clube</h3><p>Observatório do Futebol e do Torcer (Unimontes).</p></div>
+                <div class="card-pesquisa"><span class="tag">Extensão</span><h3>Encontros Citadinos</h3><p>Ciclo de debates e ações (Núcleo Citadino Unimontes).</p></div>
+                <div class="card-pesquisa"><span class="tag">Extensão</span><h3>Banco Comunitário Sevilha</h3><p>IFMG Campus Ribeirão das Neves.</p></div>
+                <div class="card-pesquisa"><span class="tag">Extensão</span><h3>Incubadora</h3><p>Incubadora de Tecnologias Sociais (IFMG).</p></div>
+            </div>
+
+            <h3 style="margin-top: 40px;">Experiência Profissional</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa"><span class="tag">Comercial</span><h3>Clínica São José</h3><p>Atuação no Comercial e desenvolvimento do produto "São José Saúde" (plano de saúde próprio).</p></div>
+            </div>
+        </section>
+
+        <section id="publicacoes">
+            <h2>Publicações</h2>
+            <div class="apresentacao">
+                Autor e coautor de publicações nas áreas de economia aplicada, desenvolvimento local, economia ecológica e estudos do lazer. Destaca-se a publicação do livro “Como criar um Banco Comunitário: um processo estruturado, democrático, participativo e transparente” (Editora Dialética, 2022), voltado à sistematização de práticas em economia solidária e desenvolvimento comunitário. No campo de artigos científicos, possui trabalhos publicados em periódicos acadêmicos e plataformas especializadas, abordando temáticas como dinâmicas urbanas, economia do futebol e governança pública. Entre as produções, destacam-se o artigo “Dinâmicas citadinas numa cidade de fitas: a quinta-feira das Festas de Agosto”, publicado na revista Ponto Urbe (2025), a análise “Quando o futebol transforma o mercado: uma análise microeconômica”, publicada no Ludopédio (2024), e o artigo “Governança pública e economia ecológica: reflexões e proposições”, publicado na Revista Inovação Social (2021). Sua produção evidencia a articulação entre teoria e prática, com ênfase em análises qualitativas, desenvolvimento territorial e interfaces entre economia, sociedade e cultura. <em>Nota: Esta lista apresenta uma seleção das principais produções e não esgota a totalidade das publicações.</em>
+            </div>
+
+            <h3>Livros</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa">
+                    <span class="tag">Livro</span>
+                    <h3>Como criar um Banco Comunitário</h3>
+                    <p>CRUZ, J. M. S.; PORTES, M. R. (Editora Dialética, 2022).</p>
+                    <a href="https://loja.editoradialetica.com/humanidades/como-criar-um-banco-comunitario-um-processo-estruturado-democratico-participativo-e-transparente?srsltid=AfmBOorPqkto3v8JHTpbWs2JdYt2RSpiECQaNuzxhvXCGext0aa3N4dX" target="_blank" style="color:#3498db; font-weight:bold;">Acessar obra</a>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Organizado</span>
+                    <h3>Caminhos do desenvolvimento</h3>
+                    <p>COUTO, F. F. et al. (Editora Unimontes, 2024).</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Organizado</span>
+                    <h3>Caminhos do Desenvolvimento: Desenvolvimento Econômico</h3>
+                    <p>COUTO, F. F. et al. (Editora Unimontes, 2024).</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 40px;">Artigos e Trabalhos Técnicos</h3>
+            <div class="grid-pesquisas">
+                <div class="card-pesquisa">
+                    <span class="tag">Periódico</span>
+                    <h3>Dinâmicas citadinas numa cidade de fitas</h3>
+                    <p>CRUZ, J. M. S.; TEIXEIRA, L. I.; SILVA, V. D. X. A. (PONTO URBE, 2025).</p>
+                </div>
+                <div class="card-pesquisa">
+                    <span class="tag">Técnico</span>
+                    <h3>Plano de Governo "A Receita da Mudança"</h3>
+                    <p>Plano de Gestão para Ribeirão das Neves/MG 2021-2024 (2020).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Currículo / Contato</h2>
+            <div style="text-align: center; margin-top: 20px;">
+                <p><strong>E-mail:</strong> <a href="mailto:juniomatheus10@gmail.com" style="color: #3498db; text-decoration: none; font-weight: bold;">juniomatheus10@gmail.com</a></p>
+                <p><strong>Lattes:</strong> <a href="http://lattes.cnpq.br/1671093595005962" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">Acessar Currículo Lattes</a></p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer><p>&copy; 2026 | Site pessoal</p></footer>
+</body>
+</html>
